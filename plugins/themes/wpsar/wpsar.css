@@ -1,0 +1,234 @@
+/**
+ * lilac.css
+ *
+ * Copyright (c) 2003-2011 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Lilac theme.
+ *
+ * $Id$
+ */
+
+body {
+	background-color: #e5e5e4;
+	color: #444444;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 100%;
+	background-image: url(body_bg.gif);
+	background-repeat: repeat-y;
+	margin: 0px;
+	top: -2px;	
+	position:relative;
+	
+}
+
+a {
+	color: #334545;
+	text-decoration:underline;
+}
+
+
+a:hover {
+	color: #217d7d;
+	text-decoration:underline;
+}
+
+
+
+.input, SELECT, TEXTAREA, BUTTON
+{
+	font-family: Verdana, Helvetica, Sans-serif;
+	border-right: gray 1px solid;
+	border-top: gray 1px solid;
+	border-left: gray 1px solid;
+	border-bottom: gray 1px solid
+}
+
+#container {
+	text-align: center;
+}
+
+#header {
+	width: 775px;
+}
+
+#headerTitle {
+	color: #000000;
+}
+
+#header h1 {
+	padding: 0px;
+	margin: 0px;
+}
+
+#header img {
+	float: left;
+	margin: 0px;
+	width: 775px;
+	height: 150px;
+}
+
+#body {
+	width: 775px;
+}
+
+#main {
+	width: 540px;
+	margin-right: 6%;
+	padding: 1em 1em 1em 0em;
+}
+
+#main h2 {
+	padding-left: 10px;
+	font-family: Palatino,'Times New Roman',Times,serif;
+}
+
+#navbar {
+	padding-left: 10px;
+	border-bottom: 1px solid black;
+}
+
+#breadcrumb {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+	font-style: italic;
+}
+
+#content {
+	padding-left: 10px;
+	border-top: 0px solid #000;
+}
+
+#content h3 {
+	font-family: Palatino,'Times New Roman',Times,serif;
+}
+
+#content h4 {
+	font-family: Palatino,'Times New Roman',Times,serif;
+}
+
+#leftSidebar {
+	margin-top: 10px;
+	margin-left: 2%;
+	padding-right: 0%;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#main h2 {
+	font-family: verdana, helvetica, sans-serif;
+	color: #7a5c3d;
+	font-size: 14px;
+	font-weight: bold;
+}
+	
+#main h3 {
+	font-family: verdana, helvetica, sans-serif;
+	color: #7a5c3d;
+	font-size: 12px;
+}
+	
+#main h4 {
+	font-family: verdana, helvetica, sans-serif;
+	color: #7a5c3d;
+	font-size: 11px;
+}
+
+#main h4 a {
+	text-decoration: none !important;
+	font-weight:bold !important;
+}
+
+#main input.button {
+	font-family: helvetica, sans-serif;
+	color:white;
+	background-color: #3e4748;
+	BORDER-RIGHT: #3e4748 1px solid;
+	BORDER-TOP: #3e4748 1px solid;
+	BORDER-LEFT: #3e4748 1px solid;
+	BORDER-BOTTOM: #3e4748 1px solid
+}
+	
+#sidebar input.button {
+	font-family: helvetica, sans-serif;
+	color:white;
+	background-color: #3e4748;
+	BORDER-RIGHT: #3e4748 1px solid;
+	BORDER-TOP: #3e4748 1px solid;
+	BORDER-LEFT: #3e4748 1px solid;
+	BORDER-BOTTOM: #3e4748 1px solid
+}
+
+/*	#leftSidebar {
+		margin-left: 0px;
+		width: 150px;
+		background-image: url(nav_top.gif);
+		background-repeat: no-repeat;
+	}
+	
+	
+	#sidebar #blockTitle{
+		background-color: white;
+		padding-left: 2px;
+		margin-left: 2px;
+	}
+	
+	#sidebar .blockTitle{
+		padding-left: 5px;
+	}
+	
+	#sidebar ul li a {
+		font-weight:bold;
+		text-decoration:none;
+		padding:6px 10px;
+		display: block;
+		color: #3e4748;
+		background-color: #95c1cc;
+		border-left:9px solid #8fb0c1;
+		border-right:1px solid #8fb0c1;
+		border-top:1px solid white;	
+	}
+	
+	
+	#sidebar ul li a:hover, 
+	#sidebar ul li a.secondary:hover, 
+	#sidebar ul li a.secondary_parent_selected:hover, 
+	#sidebar ul li a.tertiary:hover, 
+	#sidebar ul li a.tertiary_parent_selected:hover   {
+		background-color: #c7e6e8;
+		border-left:9px solid #3e4748;
+	}
+	
+	
+	#sidebar ul {
+		margin-left: 0px;
+		padding-left: 0px;
+		list-style:none;
+	}
+	
+	#sidebar .blockTitle {
+	
+		padding-left: 5px;
+	}
+	
+	.blockTitle {
+		margin-left: 5px;
+		margin-top: 10px;
+	}
+	
+	.blockSubtitle {
+		margin-left: 5px;
+	} 
+	
+	#notification ul {
+		background-image: url(nav_bottom.gif);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		list-style: none;
+	}
+*/
